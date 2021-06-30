@@ -23,7 +23,7 @@ public class Method_02_Test {
         default String format(){
             List<Person> persons= findAll();
             int nbPersonnes =persons.size();
-            return "[" + nbPersonnes+"persons]";
+            return "[" + nbPersonnes + " persons]";
         }
     }
     // end::IDao[]
